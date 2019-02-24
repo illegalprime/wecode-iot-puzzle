@@ -1,0 +1,378 @@
+[amzn2-core]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/2
+baseurl = http://amazonlinux.us-east-1.amazonaws.com/2/core/2.0/x86_64/108b6c79ecefeb1721d1170cd6c7cc8bd91caec2dd3bbbd62da32449c0cd37e5/
+cache = 0
+cachedir = /var/cache/yum/x86_64/2/amzn2-core
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/2/amzn2-core/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/2/amzn2-core/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-amazon-linux-2
+hdrdir = /var/cache/yum/x86_64/2/amzn2-core/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 300
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://amazonlinux.us-east-1.amazonaws.com/2/core/latest/x86_64/mirror.list
+mirrorlist_expire = 300
+mirrorlist_file = /var/cache/yum/x86_64/2/amzn2-core/mirrorlist.txt
+name = Amazon Linux 2 core repository
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/2/amzn2-core
+pkgdir = /var/cache/yum/x86_64/2/amzn2-core/packages
+priority = 10
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+report_instanceid = True
+retries = 7
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 5.0
+ui_id = amzn2-core/2/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[amzn2extra-docker]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/2
+baseurl = http://amazonlinux.us-east-1.amazonaws.com/2/extras/docker/18.06.1/x86_64/9a1d835f3d41c5747179c6973b67899e2ac4179612cfcdb4922b34715dfd7a20/
+cache = 0
+cachedir = /var/cache/yum/x86_64/2/amzn2extra-docker
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/2/amzn2extra-docker/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/2/amzn2extra-docker/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-amazon-linux-2
+hdrdir = /var/cache/yum/x86_64/2/amzn2extra-docker/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://amazonlinux.us-east-1.amazonaws.com/2/extras/docker/latest/x86_64/mirror.list
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/2/amzn2extra-docker/mirrorlist.txt
+name = Amazon Extras repo for docker
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/2/amzn2extra-docker
+pkgdir = /var/cache/yum/x86_64/2/amzn2extra-docker/packages
+priority = 10
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+report_instanceid = False
+retries = 7
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 5.0
+ui_id = amzn2extra-docker/2/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[amzn2extra-epel]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/2
+baseurl = http://amazonlinux.us-east-1.amazonaws.com/2/extras/epel/7.11/x86_64/b53de08042d71c98ad809672a924f0906ffce47fa14135f15d8d8c792bf84d75/
+cache = 0
+cachedir = /var/cache/yum/x86_64/2/amzn2extra-epel
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/2/amzn2extra-epel/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/2/amzn2extra-epel/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-amazon-linux-2
+hdrdir = /var/cache/yum/x86_64/2/amzn2extra-epel/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://amazonlinux.us-east-1.amazonaws.com/2/extras/epel/latest/x86_64/mirror.list
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/2/amzn2extra-epel/mirrorlist.txt
+name = Amazon Extras repo for epel
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/2/amzn2extra-epel
+pkgdir = /var/cache/yum/x86_64/2/amzn2extra-epel/packages
+priority = 10
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+report_instanceid = False
+retries = 7
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 5.0
+ui_id = amzn2extra-epel/2/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[amzn2extra-nginx1.12]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/2
+baseurl = http://amazonlinux.us-east-1.amazonaws.com/2/extras/nginx1.12/1.12.2/x86_64/9a2df733f0be0f1d13dcef1ff8d69d4780c1e7263e25abe7f79ffcf13d943415/
+cache = 0
+cachedir = /var/cache/yum/x86_64/2/amzn2extra-nginx1.12
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/2/amzn2extra-nginx1.12/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/2/amzn2extra-nginx1.12/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-amazon-linux-2
+hdrdir = /var/cache/yum/x86_64/2/amzn2extra-nginx1.12/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://amazonlinux.us-east-1.amazonaws.com/2/extras/nginx1.12/latest/x86_64/mirror.list
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/2/amzn2extra-nginx1.12/mirrorlist.txt
+name = Amazon Extras repo for nginx1.12
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/2/amzn2extra-nginx1.12
+pkgdir = /var/cache/yum/x86_64/2/amzn2extra-nginx1.12/packages
+priority = 10
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+report_instanceid = False
+retries = 7
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 5.0
+ui_id = amzn2extra-nginx1.12/2/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[epel]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/2
+baseurl = https://d2lzkl7pfhq30w.cloudfront.net/pub/epel/7/x86_64/,
+   http://mirror.cs.princeton.edu/pub/mirrors/epel/7/x86_64/,
+   http://mirror.rnet.missouri.edu/epel/7/x86_64/,
+   https://mirrors.cat.pdx.edu/epel/7/x86_64/,
+   http://mirror.seas.harvard.edu/epel/7/x86_64/,
+   http://www.gtlib.gatech.edu/pub/fedora-epel/7/x86_64/,
+   http://kdeforge2.unl.edu/mirrors/epel/7/x86_64/,
+   https://mirror.vcu.edu/pub/gnu+linux/epel/7/x86_64/,
+   https://mirrors.rit.edu/fedora/epel/7/x86_64/,
+   http://mirror.pnl.gov/epel/7/x86_64/,
+   https://mirrors.lug.mtu.edu/epel/7/x86_64/,
+   http://mirror.cs.pitt.edu/epel/7/x86_64/,
+   https://pubmirror2.math.uh.edu/fedora-buffet/epel/7/x86_64/,
+   http://archive.linux.duke.edu/pub/epel/7/x86_64/,
+   http://mirrors.mit.edu/epel/7/x86_64/,
+   https://mirror.umd.edu/fedora/epel/7/x86_64/,
+   http://mirror.math.princeton.edu/pub/epel/7/x86_64/,
+   http://mirror.grid.uchicago.edu/pub/linux/epel/7/x86_64/,
+   https://mirror.colorado.edu/fedora/epel/7/x86_64/,
+   https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/,
+   http://mirror.es.its.nyu.edu/epel/7/x86_64/,
+   https://mirror.chpc.utah.edu/pub/epel/7/x86_64/,
+   http://mirror.uic.edu/EPEL/7/x86_64/,
+   http://mirror.oss.ou.edu/epel/7/x86_64/,
+   https://pubmirror1.math.uh.edu/fedora-buffet/epel/7/x86_64/,
+   http://mirror.us.leaseweb.net/epel/7/x86_64/,
+   http://mirror.nodesdirect.com/epel/7/x86_64/,
+   https://sjc.edge.kernel.org/fedora-buffet/epel/7/x86_64/,
+   https://epel.mirror.constant.com/7/x86_64/,
+   http://mirror.sfo12.us.leaseweb.net/epel/7/x86_64/,
+   http://fedora.mirrors.pair.com/epel/7/x86_64/,
+   https://mirror.steadfastnet.com/epel/7/x86_64/,
+   https://ewr.edge.kernel.org/fedora-buffet/epel/7/x86_64/,
+   http://mirrors.syringanetworks.net/fedora-epel/7/x86_64/,
+   http://mirror.texas3006.com/epel/7/x86_64/,
+   https://mirrors.sonic.net/epel/7/x86_64/,
+   http://fedora-epel.mirrors.tds.net/fedora-epel/7/x86_64/,
+   http://mirror.solarvps.com/epel/7/x86_64/,
+   http://mirror.compevo.com/epel/7/x86_64/,
+   https://mirrors.xmission.com/fedora-epel/7/x86_64/,
+   https://mirror.us-midwest-1.nexcess.net/epel/7/x86_64/,
+   http://mirrors.kernel.org/fedora-epel/7/x86_64/,
+   http://fedora-epel.mirror.lstn.net/7/x86_64/,
+   http://mirror.metrocast.net/fedora/epel/7/x86_64/,
+   http://mirror.cogentco.com/pub/linux/epel/7/x86_64/,
+   http://mirror.sjc02.svwh.net/fedora-epel/7/x86_64/,
+   http://mirrors.develooper.com/epel/7/x86_64/,
+   https://mirror.mrjester.net/fedora/epel/7/x86_64/,
+   http://mirror.prgmr.com/pub/epel/7/x86_64/,
+   https://mirror.redsox.cc/fedora-epel/7/x86_64/,
+   http://mirror.coastal.edu/epel/7/x86_64/,
+   http://mirrors.liquidweb.com/fedora-epel/7/x86_64/,
+   http://reflector.westga.edu/repos/Fedora-EPEL/7/x86_64/,
+   http://ftp.cse.buffalo.edu/pub/epel/7/x86_64/,
+   https://dl.fedoraproject.org/pub/epel/7/x86_64/,
+   https://mirror.layeronline.com/epel/7/x86_64/,
+   https://mirror.csclub.uwaterloo.ca/fedora/epel/7/x86_64/,
+   http://mirror.its.dal.ca/pub/epel/7/x86_64/,
+   http://fedora.westmancom.com/epel/7/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/2/epel
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/2/epel/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/2/epel/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+hdrdir = /var/cache/yum/x86_64/2/epel/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=x86_64
+metalink_filename = /var/cache/yum/x86_64/2/epel/metalink.xml
+minrate = 0
+mirrorlist = 
+mirrorlist_expire = 86400
+name = Extra Packages for Enterprise Linux 7 - x86_64
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/2/epel
+pkgdir = /var/cache/yum/x86_64/2/epel/packages
+priority = 99
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+report_instanceid = False
+retries = 7
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 5.0
+ui_id = epel/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+

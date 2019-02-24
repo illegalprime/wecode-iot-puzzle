@@ -1,0 +1,129 @@
+Cloud-init v. 18.2-72.amzn2.0.6 running 'init-local' at Fri, 22 Feb 2019 18:43:45 +0000. Up 5.10 seconds.
+Cloud-init v. 18.2-72.amzn2.0.6 running 'init' at Fri, 22 Feb 2019 18:43:47 +0000. Up 7.82 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |         172.31.92.21        | 255.255.240.0 | global | 12:8b:bd:c6:0e:8c |
+ci-info: |  eth0  | True | fe80::108b:bdff:fec6:e8c/64 |       .       |  link  | 12:8b:bd:c6:0e:8c |
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++++
+ci-info: +-------+-----------------+-------------+-----------------+-----------+-------+
+ci-info: | Route |   Destination   |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-----------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |     0.0.0.0     | 172.31.80.1 |     0.0.0.0     |    eth0   |   UG  |
+ci-info: |   1   | 169.254.169.254 |   0.0.0.0   | 255.255.255.255 |    eth0   |   UH  |
+ci-info: |   2   |   172.31.80.0   |   0.0.0.0   |  255.255.240.0  |    eth0   |   U   |
+ci-info: +-------+-----------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   9   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   11  |    local    |    ::   |    eth0   |   U   |
+ci-info: |   12  |   ff00::/8  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Cloud-init v. 18.2-72.amzn2.0.6 running 'modules:config' at Fri, 22 Feb 2019 18:43:49 +0000. Up 9.48 seconds.
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Existing lock /var/run/yum.pid: another copy is running as pid 3274.
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  31 M RSS (321 MB VSZ)
+    Started: Fri Feb 22 18:43:49 2019 - 00:01 ago
+    State  : Running, pid: 3274
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  62 M RSS (353 MB VSZ)
+    Started: Fri Feb 22 18:43:49 2019 - 00:03 ago
+    State  : Running, pid: 3274
+ --> curl-7.55.1-12.amzn2.0.7.x86_64 from installed removed (updateinfo)
+ --> amazon-linux-extras-1.6.7-1.amzn2.noarch from amzn2-core removed (updateinfo)
+ --> python-urllib3-1.24.1-1.amzn2.0.1.noarch from amzn2-core removed (updateinfo)
+ --> amazon-linux-extras-1.6.4-1.amzn2.noarch from installed removed (updateinfo)
+ --> python2-botocore-1.10.79-1.amzn2.1.1.noarch from installed removed (updateinfo)
+ --> 1:openssl-1.0.2k-16.amzn2.0.1.x86_64 from installed removed (updateinfo)
+ --> 1:openssl-libs-1.0.2k-16.amzn2.0.2.x86_64 from amzn2-core removed (updateinfo)
+ --> awscli-1.15.80-1.amzn2.0.1.noarch from installed removed (updateinfo)
+ --> tzdata-2018i-1.amzn2.noarch from amzn2-core removed (updateinfo)
+ --> amazon-linux-extras-yum-plugin-1.6.7-1.amzn2.noarch from amzn2-core removed (updateinfo)
+ --> 1:openssl-1.0.2k-16.amzn2.0.2.x86_64 from amzn2-core removed (updateinfo)
+ --> libicu-50.1.2-15.amzn2.0.2.x86_64 from installed removed (updateinfo)
+ --> setup-2.8.71-9.amzn2.noarch from installed removed (updateinfo)
+ --> 1:openssl-libs-1.0.2k-16.amzn2.0.1.x86_64 from installed removed (updateinfo)
+ --> libcurl-7.61.1-9.amzn2.0.1.x86_64 from amzn2-core removed (updateinfo)
+ --> tzdata-2018e-3.amzn2.noarch from installed removed (updateinfo)
+ --> python-urllib3-1.10.2-3.amzn2.0.1.noarch from installed removed (updateinfo)
+ --> awscli-1.16.102-1.amzn2.0.1.noarch from amzn2-core removed (updateinfo)
+ --> libcurl-7.55.1-12.amzn2.0.7.x86_64 from installed removed (updateinfo)
+ --> python2-botocore-1.12.92-1.amzn2.0.1.noarch from amzn2-core removed (updateinfo)
+ --> curl-7.61.1-9.amzn2.0.1.x86_64 from amzn2-core removed (updateinfo)
+ --> xfsprogs-4.5.0-18.amzn2.0.1.x86_64 from amzn2-core removed (updateinfo)
+ --> amazon-linux-extras-yum-plugin-1.6.4-1.amzn2.noarch from installed removed (updateinfo)
+ --> xfsprogs-4.5.0-15.amzn2.x86_64 from installed removed (updateinfo)
+ --> setup-2.8.71-10.amzn2.noarch from amzn2-core removed (updateinfo)
+ --> libicu-50.1.2-17.amzn2.x86_64 from amzn2-core removed (updateinfo)
+4 package(s) needed (+0 related) for security, out of 17 available
+Resolving Dependencies
+--> Running transaction check
+---> Package kernel-tools.x86_64 0:4.14.88-88.76.amzn2 will be updated
+---> Package kernel-tools.x86_64 0:4.14.97-90.72.amzn2 will be an update
+---> Package systemd.x86_64 0:219-57.amzn2.0.7 will be updated
+---> Package systemd.x86_64 0:219-57.amzn2.0.9 will be an update
+---> Package systemd-libs.x86_64 0:219-57.amzn2.0.7 will be updated
+---> Package systemd-libs.x86_64 0:219-57.amzn2.0.9 will be an update
+---> Package systemd-sysv.x86_64 0:219-57.amzn2.0.7 will be updated
+---> Package systemd-sysv.x86_64 0:219-57.amzn2.0.9 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package           Arch        Version                    Repository       Size
+================================================================================
+Updating:
+ kernel-tools      x86_64      4.14.97-90.72.amzn2        amzn2-core      111 k
+ systemd           x86_64      219-57.amzn2.0.9           amzn2-core      5.0 M
+ systemd-libs      x86_64      219-57.amzn2.0.9           amzn2-core      396 k
+ systemd-sysv      x86_64      219-57.amzn2.0.9           amzn2-core       80 k
+
+Transaction Summary
+================================================================================
+Upgrade  4 Packages
+
+Total download size: 5.6 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+--------------------------------------------------------------------------------
+Total                                               20 MB/s | 5.6 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : systemd-libs-219-57.amzn2.0.9.x86_64                         1/8 
+  Updating   : systemd-219-57.amzn2.0.9.x86_64                              2/8 
+  Updating   : systemd-sysv-219-57.amzn2.0.9.x86_64                         3/8 
+  Updating   : kernel-tools-4.14.97-90.72.amzn2.x86_64                      4/8 
+  Cleanup    : systemd-sysv-219-57.amzn2.0.7.x86_64                         5/8 
+  Cleanup    : systemd-219-57.amzn2.0.7.x86_64                              6/8 
+  Cleanup    : systemd-libs-219-57.amzn2.0.7.x86_64                         7/8 
+  Cleanup    : kernel-tools-4.14.88-88.76.amzn2.x86_64                      8/8 
+  Verifying  : systemd-libs-219-57.amzn2.0.9.x86_64                         1/8 
+  Verifying  : systemd-219-57.amzn2.0.9.x86_64                              2/8 
+  Verifying  : kernel-tools-4.14.97-90.72.amzn2.x86_64                      3/8 
+  Verifying  : systemd-sysv-219-57.amzn2.0.9.x86_64                         4/8 
+  Verifying  : systemd-219-57.amzn2.0.7.x86_64                              5/8 
+  Verifying  : systemd-libs-219-57.amzn2.0.7.x86_64                         6/8 
+  Verifying  : systemd-sysv-219-57.amzn2.0.7.x86_64                         7/8 
+  Verifying  : kernel-tools-4.14.88-88.76.amzn2.x86_64                      8/8 
+
+Updated:
+  kernel-tools.x86_64 0:4.14.97-90.72.amzn2                                     
+  systemd.x86_64 0:219-57.amzn2.0.9                                             
+  systemd-libs.x86_64 0:219-57.amzn2.0.9                                        
+  systemd-sysv.x86_64 0:219-57.amzn2.0.9                                        
+
+Complete!
+Cloud-init v. 18.2-72.amzn2.0.6 running 'modules:final' at Fri, 22 Feb 2019 18:43:59 +0000. Up 19.46 seconds.
+Cloud-init v. 18.2-72.amzn2.0.6 finished at Fri, 22 Feb 2019 18:43:59 +0000. Datasource DataSourceEc2.  Up 19.83 seconds

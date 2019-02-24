@@ -1,0 +1,1 @@
+http://amazonlinux.us-east-1.amazonaws.com/2/extras/docker/18.06.1/x86_64/9a1d835f3d41c5747179c6973b67899e2ac4179612cfcdb4922b34715dfd7a20

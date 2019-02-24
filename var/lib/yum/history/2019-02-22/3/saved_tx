@@ -1,0 +1,12 @@
+431:d52082ed54d0a2efbf57715bc890244460d05a59
+0
+1
+installed:430:e8956b0787938f02ef49fb72c1eb3b67b6697d97
+1
+mbr: epel-release,noarch,0,6,8 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False

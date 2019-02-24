@@ -1,0 +1,1 @@
+-t -y --exclude=kernel --exclude=nvidia* --exclude=cuda* --security --sec-severity=critical --sec-severity=important upgrade

@@ -1,0 +1,2 @@
+Feb 22 18:43:48 ip-172-31-92-21 postfix/postfix-script[3149]: starting the Postfix mail system
+Feb 22 18:43:48 ip-172-31-92-21 postfix/master[3151]: daemon started -- version 2.10.1, configuration /etc/postfix

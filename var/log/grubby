@@ -1,0 +1,15 @@
+DBG: 13625: Sun Feb 24 01:56:04 2019: command line: --grub2 -c /boot/grub2/grub.cfg --add-kernel=/boot/vmlinuz-4.14.97-90.72.amzn2.x86_64 --initrd /boot/initramfs-4.14.97-90.72.amzn2.x86_64.img --copy-default --title Amazon Linux (4.14.97-90.72.amzn2.x86_64) 2 --args=root=UUID=4cbf4a19-1fba-4027-bf92-9aa969683fa9 LANG=en_US.UTF-8  --remove-kernel=TITLE=Amazon Linux (4.14.97-90.72.amzn2.x86_64) 2 --make-default
+DBG: Image entry succeeded: 
+DBG: menuentry 'Amazon Linux 2' --class centos rhel fedora --class gnu-linux --class gnu --class os --unrestricted $menuentry_id_option 'gnulinux-simple-4cbf4a19-1fba-4027-bf92-9aa969683fa9' { 
+DBG: 	load_video
+DBG: 	insmod gzio
+DBG: 	insmod part_gpt
+DBG: 	insmod xfs
+DBG: 	if [ x$feature_platform_search_hint = xy ]; then
+DBG: 	  search --no-floppy --fs-uuid --set=root  4cbf4a19-1fba-4027-bf92-9aa969683fa9
+DBG: 	else
+DBG: 	  search --no-floppy --fs-uuid --set=root 4cbf4a19-1fba-4027-bf92-9aa969683fa9
+DBG: 	fi
+DBG: 	linux16 /boot/vmlinuz-4.14.88-88.76.amzn2.x86_64 root=UUID=4cbf4a19-1fba-4027-bf92-9aa969683fa9 ro  console=tty0 console=ttyS0,115200n8 net.ifnames=0 biosdevname=0 nvme_core.io_timeout=4294967295
+DBG: 	initrd16 /boot/initramfs-4.14.88-88.76.amzn2.x86_64.img
+DBG: }

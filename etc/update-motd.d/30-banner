@@ -1,0 +1,9 @@
+#!/bin/sh
+cat << EOF
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+EOF

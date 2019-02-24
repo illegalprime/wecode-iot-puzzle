@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if test -s /var/run/yum.pid; then
+	logger -t update-motd "Yum database was locked, so we couldn't get fresh package info." &>/dev/null
+	# An asynchronous retry "loop". It's okay if this fails.
+	systemd-run --description "yum locked retry of update-motd" --on-active=30 --timer-property=AccuracySec=10s --quiet /usr/sbin/update-motd &>/dev/null
+	exit
+fi
+
+# Possible summaries include:
+# No packages needed for security; %d packages available
+# %d package(s) needed[ (+%d related)] for security, out of %d available
+# There are [[%d security update(s)[ out of ]%d total update(s)]] available
+LANG=C timeout 30s /usr/bin/yum \
+    --debuglevel 2 \
+    --security check-update 2>/dev/null \
+        | grep -P '(?<! 0 packages) available$' \
+    && echo 'Run "sudo yum update" to apply all updates.'

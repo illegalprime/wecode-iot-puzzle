@@ -1,0 +1,26 @@
+452:847cff6a3c4cfa35254586ded7ceaf35a866b573
+0
+6
+amzn2-core:16207:1550474447
+amzn2extra-docker:12:1549677739
+amzn2extra-epel:1:1536255900
+amzn2extra-nginx1.12:27:1545082908
+epel:12726:1550889021
+installed:454:f3f7c7b4f0f9d618055422fb58c2d8fd0a9d0e59
+2
+mbr: lighttpd,x86_64,0,1.4.53,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: gamin,x86_64,0,0.1.10,16.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: lighttpd,x86_64,0,1.4.53,1.el7@a:dependson
+  depends_on: lighttpd,x86_64,0,1.4.53,1.el7@a

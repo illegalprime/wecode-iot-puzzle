@@ -1,0 +1,349 @@
+Feb 22 18:43:48 ip-172-31-92-21 crond[3219]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 52% if used.)
+Feb 22 18:43:48 ip-172-31-92-21 crond[3219]: (CRON) INFO (running with inotify support)
+Feb 22 18:50:01 ip-172-31-92-21 CROND[3570]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 19:00:01 ip-172-31-92-21 CROND[3661]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 19:01:01 ip-172-31-92-21 CROND[3667]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 19:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3667]: starting 0anacron
+Feb 22 19:01:01 ip-172-31-92-21 anacron[3677]: Anacron started on 2019-02-22
+Feb 22 19:01:02 ip-172-31-92-21 anacron[3677]: Will run job `cron.daily' in 18 min.
+Feb 22 19:01:02 ip-172-31-92-21 anacron[3677]: Will run job `cron.weekly' in 38 min.
+Feb 22 19:01:02 ip-172-31-92-21 anacron[3677]: Will run job `cron.monthly' in 58 min.
+Feb 22 19:01:02 ip-172-31-92-21 anacron[3677]: Jobs will be executed sequentially
+Feb 22 19:01:02 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3679]: finished 0anacron
+Feb 22 19:10:01 ip-172-31-92-21 CROND[3683]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 19:19:02 ip-172-31-92-21 anacron[3677]: Job `cron.daily' started
+Feb 22 19:19:02 ip-172-31-92-21 run-parts(/etc/cron.daily)[3726]: starting logrotate
+Feb 22 19:19:02 ip-172-31-92-21 run-parts(/etc/cron.daily)[3734]: finished logrotate
+Feb 22 19:19:02 ip-172-31-92-21 run-parts(/etc/cron.daily)[3726]: starting man-db.cron
+Feb 22 19:19:17 ip-172-31-92-21 run-parts(/etc/cron.daily)[32399]: finished man-db.cron
+Feb 22 19:19:17 ip-172-31-92-21 run-parts(/etc/cron.daily)[3726]: starting mlocate
+Feb 22 19:19:17 ip-172-31-92-21 run-parts(/etc/cron.daily)[32410]: finished mlocate
+Feb 22 19:19:17 ip-172-31-92-21 anacron[3677]: Job `cron.daily' terminated
+Feb 22 19:20:01 ip-172-31-92-21 CROND[32412]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 19:30:01 ip-172-31-92-21 CROND[32418]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 19:39:01 ip-172-31-92-21 anacron[3677]: Job `cron.weekly' started
+Feb 22 19:39:01 ip-172-31-92-21 anacron[3677]: Job `cron.weekly' terminated
+Feb 22 19:40:01 ip-172-31-92-21 CROND[32465]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 19:50:01 ip-172-31-92-21 CROND[32472]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 19:59:02 ip-172-31-92-21 anacron[3677]: Job `cron.monthly' started
+Feb 22 19:59:02 ip-172-31-92-21 anacron[3677]: Job `cron.monthly' terminated
+Feb 22 19:59:02 ip-172-31-92-21 anacron[3677]: Normal exit (3 jobs run)
+Feb 22 20:00:01 ip-172-31-92-21 CROND[32483]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 20:01:01 ip-172-31-92-21 CROND[32489]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 20:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[32489]: starting 0anacron
+Feb 22 20:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[32498]: finished 0anacron
+Feb 22 20:10:01 ip-172-31-92-21 CROND[32542]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 20:20:01 ip-172-31-92-21 CROND[32549]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 20:30:01 ip-172-31-92-21 CROND[32596]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 20:40:01 ip-172-31-92-21 CROND[32604]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 20:50:01 ip-172-31-92-21 CROND[32612]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 21:00:01 ip-172-31-92-21 CROND[32659]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 21:01:01 ip-172-31-92-21 CROND[32665]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 21:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[32665]: starting 0anacron
+Feb 22 21:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[32674]: finished 0anacron
+Feb 22 21:10:01 ip-172-31-92-21 CROND[32680]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 21:20:01 ip-172-31-92-21 CROND[32726]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 21:30:01 ip-172-31-92-21 CROND[32733]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 21:40:01 ip-172-31-92-21 CROND[32741]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 21:50:01 ip-172-31-92-21 CROND[319]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 22:00:01 ip-172-31-92-21 CROND[327]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 22:01:01 ip-172-31-92-21 CROND[333]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 22:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[333]: starting 0anacron
+Feb 22 22:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[342]: finished 0anacron
+Feb 22 22:10:01 ip-172-31-92-21 CROND[387]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 22:20:01 ip-172-31-92-21 CROND[394]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 22:30:01 ip-172-31-92-21 CROND[402]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 22:40:01 ip-172-31-92-21 CROND[448]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 22:50:01 ip-172-31-92-21 CROND[456]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 23:00:01 ip-172-31-92-21 CROND[502]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 23:01:01 ip-172-31-92-21 CROND[508]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 22 23:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[508]: starting 0anacron
+Feb 22 23:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[517]: finished 0anacron
+Feb 22 23:10:01 ip-172-31-92-21 CROND[523]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 23:20:01 ip-172-31-92-21 CROND[530]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 23:30:01 ip-172-31-92-21 CROND[578]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 23:40:01 ip-172-31-92-21 CROND[586]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 23:50:01 ip-172-31-92-21 CROND[633]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 22 23:53:01 ip-172-31-92-21 CROND[640]: (root) CMD (/usr/lib64/sa/sa2 -A)
+Feb 23 00:00:01 ip-172-31-92-21 CROND[651]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 00:01:01 ip-172-31-92-21 CROND[657]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 00:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[657]: starting 0anacron
+Feb 23 00:01:01 ip-172-31-92-21 anacron[668]: Anacron started on 2019-02-23
+Feb 23 00:01:01 ip-172-31-92-21 anacron[668]: Normal exit (0 jobs run)
+Feb 23 00:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[670]: finished 0anacron
+Feb 23 00:10:01 ip-172-31-92-21 CROND[677]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 00:20:01 ip-172-31-92-21 CROND[722]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 00:30:01 ip-172-31-92-21 CROND[730]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 00:40:01 ip-172-31-92-21 CROND[776]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 00:50:01 ip-172-31-92-21 CROND[784]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 01:00:01 ip-172-31-92-21 CROND[792]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 01:01:01 ip-172-31-92-21 CROND[798]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 01:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[798]: starting 0anacron
+Feb 23 01:01:01 ip-172-31-92-21 anacron[809]: Anacron started on 2019-02-23
+Feb 23 01:01:01 ip-172-31-92-21 anacron[809]: Normal exit (0 jobs run)
+Feb 23 01:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[811]: finished 0anacron
+Feb 23 01:10:01 ip-172-31-92-21 CROND[856]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 01:20:01 ip-172-31-92-21 CROND[864]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 01:30:01 ip-172-31-92-21 CROND[872]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 01:40:01 ip-172-31-92-21 CROND[919]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 01:50:01 ip-172-31-92-21 CROND[927]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 02:00:01 ip-172-31-92-21 CROND[973]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 02:01:01 ip-172-31-92-21 CROND[979]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 02:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[979]: starting 0anacron
+Feb 23 02:01:02 ip-172-31-92-21 anacron[989]: Anacron started on 2019-02-23
+Feb 23 02:01:02 ip-172-31-92-21 anacron[989]: Normal exit (0 jobs run)
+Feb 23 02:01:02 ip-172-31-92-21 run-parts(/etc/cron.hourly)[991]: finished 0anacron
+Feb 23 02:10:01 ip-172-31-92-21 CROND[997]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 02:20:01 ip-172-31-92-21 CROND[1005]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 02:30:01 ip-172-31-92-21 CROND[1054]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 02:40:01 ip-172-31-92-21 CROND[1061]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 02:50:01 ip-172-31-92-21 CROND[1069]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 03:00:01 ip-172-31-92-21 CROND[1115]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 03:01:01 ip-172-31-92-21 CROND[1121]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 03:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1121]: starting 0anacron
+Feb 23 03:01:01 ip-172-31-92-21 anacron[1131]: Anacron started on 2019-02-23
+Feb 23 03:01:01 ip-172-31-92-21 anacron[1131]: Will run job `cron.daily' in 7 min.
+Feb 23 03:01:01 ip-172-31-92-21 anacron[1131]: Jobs will be executed sequentially
+Feb 23 03:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1133]: finished 0anacron
+Feb 23 03:08:01 ip-172-31-92-21 anacron[1131]: Job `cron.daily' started
+Feb 23 03:08:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[1136]: starting logrotate
+Feb 23 03:08:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[1144]: finished logrotate
+Feb 23 03:08:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[1136]: starting man-db.cron
+Feb 23 03:08:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[1155]: finished man-db.cron
+Feb 23 03:08:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[1136]: starting mlocate
+Feb 23 03:08:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[1166]: finished mlocate
+Feb 23 03:08:01 ip-172-31-92-21 anacron[1131]: Job `cron.daily' terminated
+Feb 23 03:08:01 ip-172-31-92-21 anacron[1131]: Normal exit (1 job run)
+Feb 23 03:10:01 ip-172-31-92-21 CROND[1172]: (root) CMD (/usr/bin/systemctl --quiet restart update-motd)
+Feb 23 03:10:01 ip-172-31-92-21 CROND[1173]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 03:20:01 ip-172-31-92-21 CROND[1212]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 03:30:01 ip-172-31-92-21 CROND[1258]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 03:40:01 ip-172-31-92-21 CROND[1266]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 03:50:01 ip-172-31-92-21 CROND[1274]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 04:00:01 ip-172-31-92-21 CROND[1322]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 04:01:01 ip-172-31-92-21 CROND[1328]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 04:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1328]: starting 0anacron
+Feb 23 04:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1337]: finished 0anacron
+Feb 23 04:10:01 ip-172-31-92-21 CROND[1344]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 04:20:01 ip-172-31-92-21 CROND[1390]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 04:30:01 ip-172-31-92-21 CROND[1398]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 04:40:01 ip-172-31-92-21 CROND[1406]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 04:50:01 ip-172-31-92-21 CROND[1453]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 05:00:01 ip-172-31-92-21 CROND[1461]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 05:01:01 ip-172-31-92-21 CROND[1467]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 05:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1467]: starting 0anacron
+Feb 23 05:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1476]: finished 0anacron
+Feb 23 05:10:01 ip-172-31-92-21 CROND[1482]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 05:20:01 ip-172-31-92-21 CROND[1527]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 05:30:01 ip-172-31-92-21 CROND[1537]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 05:40:01 ip-172-31-92-21 CROND[1583]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 05:50:01 ip-172-31-92-21 CROND[1591]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 06:00:01 ip-172-31-92-21 CROND[1599]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 06:01:01 ip-172-31-92-21 CROND[1605]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 06:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1605]: starting 0anacron
+Feb 23 06:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1614]: finished 0anacron
+Feb 23 06:10:01 ip-172-31-92-21 CROND[1658]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 06:20:01 ip-172-31-92-21 CROND[1665]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 06:30:01 ip-172-31-92-21 CROND[1712]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 06:40:01 ip-172-31-92-21 CROND[1721]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 06:50:01 ip-172-31-92-21 CROND[1730]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 07:00:01 ip-172-31-92-21 CROND[1779]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 07:01:01 ip-172-31-92-21 CROND[1785]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 07:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1785]: starting 0anacron
+Feb 23 07:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1794]: finished 0anacron
+Feb 23 07:10:01 ip-172-31-92-21 CROND[1799]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 07:20:01 ip-172-31-92-21 CROND[1807]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 07:30:01 ip-172-31-92-21 CROND[1866]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 07:40:01 ip-172-31-92-21 CROND[1874]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 07:50:01 ip-172-31-92-21 CROND[1882]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 08:00:01 ip-172-31-92-21 CROND[1930]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 08:01:01 ip-172-31-92-21 CROND[1937]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 08:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1937]: starting 0anacron
+Feb 23 08:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[1946]: finished 0anacron
+Feb 23 08:10:01 ip-172-31-92-21 CROND[1952]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 08:20:01 ip-172-31-92-21 CROND[1998]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 08:30:01 ip-172-31-92-21 CROND[2006]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 08:40:01 ip-172-31-92-21 CROND[2014]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 08:50:01 ip-172-31-92-21 CROND[2060]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 09:00:01 ip-172-31-92-21 CROND[2068]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 09:01:01 ip-172-31-92-21 CROND[2074]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 09:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2074]: starting 0anacron
+Feb 23 09:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2083]: finished 0anacron
+Feb 23 09:10:01 ip-172-31-92-21 CROND[2088]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 09:20:01 ip-172-31-92-21 CROND[2136]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 09:30:01 ip-172-31-92-21 CROND[2144]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 09:40:02 ip-172-31-92-21 CROND[2190]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 09:50:01 ip-172-31-92-21 CROND[2199]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 10:00:01 ip-172-31-92-21 CROND[2206]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 10:01:01 ip-172-31-92-21 CROND[2251]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 10:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2251]: starting 0anacron
+Feb 23 10:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2260]: finished 0anacron
+Feb 23 10:10:01 ip-172-31-92-21 CROND[2265]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 10:20:01 ip-172-31-92-21 CROND[2273]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 10:30:01 ip-172-31-92-21 CROND[2319]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 10:40:01 ip-172-31-92-21 CROND[2327]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 10:50:01 ip-172-31-92-21 CROND[2334]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 11:00:01 ip-172-31-92-21 CROND[2380]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 11:01:01 ip-172-31-92-21 CROND[2387]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 11:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2387]: starting 0anacron
+Feb 23 11:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2396]: finished 0anacron
+Feb 23 11:10:01 ip-172-31-92-21 CROND[2401]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 11:20:01 ip-172-31-92-21 CROND[2447]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 11:30:01 ip-172-31-92-21 CROND[2456]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 11:40:01 ip-172-31-92-21 CROND[2464]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 11:50:01 ip-172-31-92-21 CROND[2509]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 12:00:01 ip-172-31-92-21 CROND[2517]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 12:01:01 ip-172-31-92-21 CROND[2523]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 12:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2523]: starting 0anacron
+Feb 23 12:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2532]: finished 0anacron
+Feb 23 12:10:01 ip-172-31-92-21 CROND[2538]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 12:20:01 ip-172-31-92-21 CROND[2584]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 12:30:01 ip-172-31-92-21 CROND[2592]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 12:40:01 ip-172-31-92-21 CROND[2642]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 12:50:01 ip-172-31-92-21 CROND[2685]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 13:00:01 ip-172-31-92-21 CROND[2699]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 13:01:01 ip-172-31-92-21 CROND[2744]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 13:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2744]: starting 0anacron
+Feb 23 13:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2753]: finished 0anacron
+Feb 23 13:10:01 ip-172-31-92-21 CROND[2759]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 13:20:01 ip-172-31-92-21 CROND[2767]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 13:30:01 ip-172-31-92-21 CROND[2813]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 13:40:01 ip-172-31-92-21 CROND[2821]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 13:50:01 ip-172-31-92-21 CROND[2829]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 14:00:01 ip-172-31-92-21 CROND[2875]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 14:01:01 ip-172-31-92-21 CROND[2881]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 14:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2881]: starting 0anacron
+Feb 23 14:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[2891]: finished 0anacron
+Feb 23 14:10:01 ip-172-31-92-21 CROND[2896]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 14:20:01 ip-172-31-92-21 CROND[2904]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 14:30:01 ip-172-31-92-21 CROND[2950]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 14:40:01 ip-172-31-92-21 CROND[2958]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 14:50:01 ip-172-31-92-21 CROND[3004]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 15:00:01 ip-172-31-92-21 CROND[3012]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 15:01:01 ip-172-31-92-21 CROND[3019]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 15:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3019]: starting 0anacron
+Feb 23 15:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3028]: finished 0anacron
+Feb 23 15:10:01 ip-172-31-92-21 CROND[3086]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 15:20:01 ip-172-31-92-21 CROND[3132]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 15:30:01 ip-172-31-92-21 CROND[3140]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 15:40:01 ip-172-31-92-21 CROND[3188]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 15:50:01 ip-172-31-92-21 CROND[3195]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 16:00:01 ip-172-31-92-21 CROND[3205]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 16:01:01 ip-172-31-92-21 CROND[3211]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 16:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3211]: starting 0anacron
+Feb 23 16:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3226]: finished 0anacron
+Feb 23 16:10:01 ip-172-31-92-21 CROND[3276]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 16:20:01 ip-172-31-92-21 CROND[3284]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 16:30:01 ip-172-31-92-21 CROND[3332]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 16:40:01 ip-172-31-92-21 CROND[3340]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 16:50:01 ip-172-31-92-21 CROND[3348]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 17:00:01 ip-172-31-92-21 CROND[3452]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 17:01:01 ip-172-31-92-21 CROND[3458]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 17:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3458]: starting 0anacron
+Feb 23 17:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3467]: finished 0anacron
+Feb 23 17:10:01 ip-172-31-92-21 CROND[3473]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 17:20:01 ip-172-31-92-21 CROND[3481]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 17:30:02 ip-172-31-92-21 CROND[3527]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 17:40:01 ip-172-31-92-21 CROND[3535]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 17:50:01 ip-172-31-92-21 CROND[3582]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 18:00:01 ip-172-31-92-21 CROND[3590]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 18:01:01 ip-172-31-92-21 CROND[3599]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 18:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3599]: starting 0anacron
+Feb 23 18:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3608]: finished 0anacron
+Feb 23 18:10:01 ip-172-31-92-21 CROND[3614]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 18:20:01 ip-172-31-92-21 CROND[3660]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 18:30:01 ip-172-31-92-21 CROND[3668]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 18:40:01 ip-172-31-92-21 CROND[3714]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 18:50:01 ip-172-31-92-21 CROND[3721]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 19:00:01 ip-172-31-92-21 CROND[3731]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 19:01:01 ip-172-31-92-21 CROND[3738]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 19:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3738]: starting 0anacron
+Feb 23 19:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[3747]: finished 0anacron
+Feb 23 19:10:01 ip-172-31-92-21 CROND[3791]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 19:20:01 ip-172-31-92-21 CROND[3857]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 19:30:01 ip-172-31-92-21 CROND[3865]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 19:40:01 ip-172-31-92-21 CROND[3911]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 19:50:01 ip-172-31-92-21 CROND[3978]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 20:00:01 ip-172-31-92-21 CROND[4023]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 20:01:01 ip-172-31-92-21 CROND[4030]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 20:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4030]: starting 0anacron
+Feb 23 20:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4039]: finished 0anacron
+Feb 23 20:10:01 ip-172-31-92-21 CROND[4044]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 20:20:01 ip-172-31-92-21 CROND[4148]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 20:30:01 ip-172-31-92-21 CROND[4156]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 20:40:01 ip-172-31-92-21 CROND[4164]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 20:50:01 ip-172-31-92-21 CROND[4209]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 21:00:01 ip-172-31-92-21 CROND[4217]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 21:01:01 ip-172-31-92-21 CROND[4223]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 21:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4223]: starting 0anacron
+Feb 23 21:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4232]: finished 0anacron
+Feb 23 21:10:01 ip-172-31-92-21 CROND[4238]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 21:20:01 ip-172-31-92-21 CROND[4284]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 21:30:01 ip-172-31-92-21 CROND[4293]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 21:40:01 ip-172-31-92-21 CROND[4339]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 21:50:01 ip-172-31-92-21 CROND[4346]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 22:00:01 ip-172-31-92-21 CROND[4354]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 22:01:01 ip-172-31-92-21 CROND[4361]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 22:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4361]: starting 0anacron
+Feb 23 22:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4370]: finished 0anacron
+Feb 23 22:10:01 ip-172-31-92-21 CROND[4413]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 22:20:01 ip-172-31-92-21 CROND[4421]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 22:30:01 ip-172-31-92-21 CROND[4467]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 22:40:01 ip-172-31-92-21 CROND[4475]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 22:50:01 ip-172-31-92-21 CROND[4482]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 23:00:01 ip-172-31-92-21 CROND[4528]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 23:01:01 ip-172-31-92-21 CROND[4534]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 23 23:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4534]: starting 0anacron
+Feb 23 23:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4543]: finished 0anacron
+Feb 23 23:10:01 ip-172-31-92-21 CROND[4550]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 23:20:01 ip-172-31-92-21 CROND[4601]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 23:30:01 ip-172-31-92-21 CROND[4611]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 23:40:01 ip-172-31-92-21 CROND[4619]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 23:50:01 ip-172-31-92-21 CROND[4664]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 23 23:53:01 ip-172-31-92-21 CROND[4671]: (root) CMD (/usr/lib64/sa/sa2 -A)
+Feb 24 00:00:01 ip-172-31-92-21 CROND[4682]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 00:01:01 ip-172-31-92-21 CROND[4688]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 00:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4688]: starting 0anacron
+Feb 24 00:01:01 ip-172-31-92-21 anacron[4698]: Anacron started on 2019-02-24
+Feb 24 00:01:01 ip-172-31-92-21 anacron[4698]: Normal exit (0 jobs run)
+Feb 24 00:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[4700]: finished 0anacron
+Feb 24 00:10:01 ip-172-31-92-21 CROND[4744]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 00:20:01 ip-172-31-92-21 CROND[4752]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 00:30:02 ip-172-31-92-21 CROND[4760]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 00:40:01 ip-172-31-92-21 CROND[4807]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 00:50:01 ip-172-31-92-21 CROND[4815]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 01:00:01 ip-172-31-92-21 CROND[5050]: (root) CMD (/usr/sbin/raid-check)
+Feb 24 01:00:01 ip-172-31-92-21 CROND[5051]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 01:01:01 ip-172-31-92-21 CROND[5062]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 01:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[5062]: starting 0anacron
+Feb 24 01:01:01 ip-172-31-92-21 anacron[5072]: Anacron started on 2019-02-24
+Feb 24 01:01:01 ip-172-31-92-21 anacron[5072]: Normal exit (0 jobs run)
+Feb 24 01:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[5074]: finished 0anacron
+Feb 24 01:10:01 ip-172-31-92-21 CROND[5079]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 01:20:01 ip-172-31-92-21 CROND[5087]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 01:30:01 ip-172-31-92-21 CROND[5133]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 01:40:01 ip-172-31-92-21 CROND[5141]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 01:50:01 ip-172-31-92-21 CROND[5201]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 02:00:01 ip-172-31-92-21 CROND[13672]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 02:01:01 ip-172-31-92-21 CROND[13679]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 02:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[13679]: starting 0anacron
+Feb 24 02:01:01 ip-172-31-92-21 anacron[13689]: Anacron started on 2019-02-24
+Feb 24 02:01:01 ip-172-31-92-21 anacron[13689]: Normal exit (0 jobs run)
+Feb 24 02:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[13691]: finished 0anacron
+Feb 24 02:10:01 ip-172-31-92-21 CROND[13912]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 02:20:01 ip-172-31-92-21 CROND[14208]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 02:30:01 ip-172-31-92-21 CROND[14617]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 02:40:01 ip-172-31-92-21 CROND[14841]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 02:50:01 ip-172-31-92-21 CROND[15103]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 03:00:01 ip-172-31-92-21 CROND[15331]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 03:01:01 ip-172-31-92-21 CROND[15342]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 24 03:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[15342]: starting 0anacron
+Feb 24 03:01:01 ip-172-31-92-21 anacron[15352]: Anacron started on 2019-02-24
+Feb 24 03:01:01 ip-172-31-92-21 anacron[15352]: Will run job `cron.daily' in 21 min.
+Feb 24 03:01:01 ip-172-31-92-21 anacron[15352]: Jobs will be executed sequentially
+Feb 24 03:01:01 ip-172-31-92-21 run-parts(/etc/cron.hourly)[15354]: finished 0anacron
+Feb 24 03:10:01 ip-172-31-92-21 CROND[22147]: (root) CMD (/usr/bin/systemctl --quiet restart update-motd)
+Feb 24 03:10:01 ip-172-31-92-21 CROND[22148]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 03:20:01 ip-172-31-92-21 CROND[30230]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 03:22:01 ip-172-31-92-21 anacron[15352]: Job `cron.daily' started
+Feb 24 03:22:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[32295]: starting logrotate

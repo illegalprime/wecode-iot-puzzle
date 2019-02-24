@@ -1,0 +1,81 @@
+429:a2f5795e906126898fdb50187434a140534ee075
+0
+3
+amzn2-core:16207:1550474447
+amzn2extra-docker:12:1549677739
+installed:429:708cfb62ff342abe4fc7ec9703c9c7d3da6c63b1
+8
+mbr: systemd,x86_64,0,219,57.amzn2.0.7 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: systemd,x86_64,0,219,57.amzn2.0.9@a:updatedby
+  updated_by: systemd,x86_64,0,219,57.amzn2.0.9@a
+mbr: systemd-libs,x86_64,0,219,57.amzn2.0.7 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: systemd-libs,x86_64,0,219,57.amzn2.0.9@a:updatedby
+  updated_by: systemd-libs,x86_64,0,219,57.amzn2.0.9@a
+mbr: systemd-sysv,x86_64,0,219,57.amzn2.0.7 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: systemd-sysv,x86_64,0,219,57.amzn2.0.9@a:updatedby
+  updated_by: systemd-sysv,x86_64,0,219,57.amzn2.0.9@a
+mbr: kernel-tools,x86_64,0,4.14.88,88.76.amzn2 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: kernel-tools,x86_64,0,4.14.97,90.72.amzn2@a:updatedby
+  updated_by: kernel-tools,x86_64,0,4.14.97,90.72.amzn2@a
+mbr: systemd-libs,x86_64,0,219,57.amzn2.0.9 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: systemd-libs,x86_64,0,219,57.amzn2.0.7@i:updates systemd,x86_64,0,219,57.amzn2.0.9@a:dependson
+  depends_on: systemd,x86_64,0,219,57.amzn2.0.9@a
+  updates: systemd-libs,x86_64,0,219,57.amzn2.0.7@i
+mbr: systemd,x86_64,0,219,57.amzn2.0.9 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: systemd,x86_64,0,219,57.amzn2.0.7@i:updates systemd-sysv,x86_64,0,219,57.amzn2.0.9@a:dependson
+  depends_on: systemd-sysv,x86_64,0,219,57.amzn2.0.9@a
+  updates: systemd,x86_64,0,219,57.amzn2.0.7@i
+mbr: kernel-tools,x86_64,0,4.14.97,90.72.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: kernel-tools,x86_64,0,4.14.88,88.76.amzn2@i:updates
+  updates: kernel-tools,x86_64,0,4.14.88,88.76.amzn2@i
+mbr: systemd-sysv,x86_64,0,219,57.amzn2.0.9 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: systemd-sysv,x86_64,0,219,57.amzn2.0.7@i:updates
+  updates: systemd-sysv,x86_64,0,219,57.amzn2.0.7@i

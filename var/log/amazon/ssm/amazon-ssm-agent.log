@@ -1,0 +1,2 @@
+2019-02-22 18:43:49 INFO Entering SSM Agent hibernate - NoCredentialProviders: no valid providers in chain. Deprecated.
+	For verbose messaging see aws.Config.CredentialsChainVerboseErrors

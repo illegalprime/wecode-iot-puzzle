@@ -1,0 +1,4 @@
+Feb 24 03:30:35 ip-172-31-92-21 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/bash
+Feb 24 03:30:40 ip-172-31-92-21 sshd[14651]: Received disconnect from 24.60.31.228 port 34560:11: disconnected by user
+Feb 24 03:30:40 ip-172-31-92-21 sshd[14651]: Disconnected from 24.60.31.228 port 34560
+Feb 24 03:30:40 ip-172-31-92-21 sshd[14633]: pam_unix(sshd:session): session closed for user ec2-user

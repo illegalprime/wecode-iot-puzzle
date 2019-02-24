@@ -1,0 +1,30 @@
+<repomd xmlns="http://linux.duke.edu/metadata/repo">
+ <revision>1549677739</revision>
+<data type="primary_db">
+  <checksum type="sha256">cec978f864c154c5e5af30b6be1781e5163563155e2156e65f53ad76126a197c</checksum>
+  <open-checksum type="sha256">fa59ed4abe12d285e6d51d4f2d6c8bb14fa25df5d9256132b38e5e00a3d54d0d</open-checksum>
+  <location href="repodata/primary.sqlite.gz" />
+  <timestamp>1549677738</timestamp>
+  <database_version>10</database_version>
+  <size>46720</size>
+  <open-size>258048</open-size>
+</data>
+<data type="filelists_db">
+  <checksum type="sha256">83c2a1261794833956c02576e31b692e44a299585c73209e599b20e3f2b05f27</checksum>
+  <open-checksum type="sha256">280473fcbcd51306ad5aeff01b22bde8c86885db7b50de4458654b30b5c9cc82</open-checksum>
+  <location href="repodata/filelists.sqlite.gz" />
+  <timestamp>1549677739</timestamp>
+  <database_version>10</database_version>
+  <size>8060</size>
+  <open-size>94208</open-size>
+</data>
+<data type="other_db">
+  <checksum type="sha256">6993dcdf0ab0155183ef62df0a15eac782a75670298d90ea86657aa3543bf830</checksum>
+  <open-checksum type="sha256">f0ccb9f53f789b004fe1f80df8c2701b90e688c0d8f50a9c7c92bc89407a26b6</open-checksum>
+  <location href="repodata/other.sqlite.gz" />
+  <timestamp>1549677739</timestamp>
+  <database_version>10</database_version>
+  <size>504</size>
+  <open-size>24576</open-size>
+</data>
+</repomd>

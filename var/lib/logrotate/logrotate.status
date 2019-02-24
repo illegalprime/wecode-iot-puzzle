@@ -1,0 +1,14 @@
+logrotate state -- version 2
+"/var/log/yum.log" 2019-2-22-19:0:0
+"/var/log/boot.log" 2019-2-24-3:22:1
+"/var/log/wtmp" 2019-2-22-19:0:0
+"/var/log/chrony/*.log" 2019-2-22-19:0:0
+"/var/log/spooler" 2019-2-24-3:22:1
+"/var/log/btmp" 2019-2-22-19:0:0
+"/var/log/maillog" 2019-2-24-3:22:1
+"/var/log/lighttpd/error.log" 2019-2-24-3:0:0
+"/var/log/lighttpd/access.log" 2019-2-24-3:0:0
+"/var/log/secure" 2019-2-24-3:22:1
+"/var/log/messages" 2019-2-24-3:22:1
+"/var/log/cron" 2019-2-24-3:22:1
+"/var/account/pacct" 2019-2-22-19:0:0

@@ -1,0 +1,9 @@
+Feb 24 03:22:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[32308]: finished logrotate
+Feb 24 03:22:01 ip-172-31-92-21 run-parts(/etc/cron.daily)[32295]: starting man-db.cron
+Feb 24 03:22:02 ip-172-31-92-21 run-parts(/etc/cron.daily)[866]: finished man-db.cron
+Feb 24 03:22:02 ip-172-31-92-21 run-parts(/etc/cron.daily)[32295]: starting mlocate
+Feb 24 03:22:02 ip-172-31-92-21 run-parts(/etc/cron.daily)[891]: finished mlocate
+Feb 24 03:22:02 ip-172-31-92-21 anacron[15352]: Job `cron.daily' terminated
+Feb 24 03:22:02 ip-172-31-92-21 anacron[15352]: Normal exit (1 job run)
+Feb 24 03:30:01 ip-172-31-92-21 CROND[9494]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Feb 24 03:40:01 ip-172-31-92-21 CROND[9946]: (root) CMD (/usr/lib64/sa/sa1 1 1)

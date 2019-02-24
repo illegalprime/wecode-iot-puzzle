@@ -1,0 +1,26 @@
+446:7a9fea455ddd2057c8c257266b0b58434fefdd55
+0
+6
+amzn2-core:16207:1550474447
+amzn2extra-docker:12:1549677739
+amzn2extra-epel:1:1536255900
+amzn2extra-nginx1.12:27:1545082908
+epel:12726:1550889021
+installed:448:d4677ed29b92f714f814f48eb52ad83706f8196a
+2
+mbr: jq,x86_64,0,1.5,1.amzn2.0.2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: oniguruma,x86_64,0,5.9.6,1.amzn2 70
+  repo: amzn2-core
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: jq,x86_64,0,1.5,1.amzn2.0.2@a:dependson
+  depends_on: jq,x86_64,0,1.5,1.amzn2.0.2@a

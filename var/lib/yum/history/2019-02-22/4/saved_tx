@@ -1,0 +1,15 @@
+430:e8956b0787938f02ef49fb72c1eb3b67b6697d97
+0
+4
+amzn2-core:16207:1550474447
+amzn2extra-docker:12:1549677739
+amzn2extra-epel:1:1536255900
+installed:431:ca199b837adb6828d7e735742664d070ad66f8cc
+1
+mbr: epel-release,noarch,0,7,11 70
+  repo: amzn2extra-epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

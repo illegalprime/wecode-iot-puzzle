@@ -1,0 +1,9 @@
+# This file is automatically maintained by lvm.
+
+persistent_filter_cache {
+	valid_devices=[
+		"/dev/loop2",
+		"/dev/mapper/loop2p128",
+		"/dev/mapper/loop2p1"
+	]
+}

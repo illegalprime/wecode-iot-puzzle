@@ -1,0 +1,51 @@
+Feb 24 03:22:01 ip-172-31-92-21 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0" x-pid="3202" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Feb 24 03:22:02 ip-172-31-92-21 systemd: Removed slice User Slice of root.
+Feb 24 03:22:02 ip-172-31-92-21 systemd: Stopping User Slice of root.
+Feb 24 03:23:55 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 119740ms.
+Feb 24 03:25:55 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 120370ms.
+Feb 24 03:27:02 ip-172-31-92-21 lighttpd: grep: /etc/password: No such file or directory
+Feb 24 03:27:28 ip-172-31-92-21 lighttpd: grep: /etc/password: No such file or directory
+Feb 24 03:27:28 ip-172-31-92-21 lighttpd: grep: /etc/password: No such file or directory
+Feb 24 03:27:38 ip-172-31-92-21 lighttpd: grep: /etc/password: No such file or directory
+Feb 24 03:27:38 ip-172-31-92-21 lighttpd: grep: /etc/password: No such file or directory
+Feb 24 03:27:55 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 112770ms.
+Feb 24 03:28:00 ip-172-31-92-21 lighttpd: grep: /etc/password: No such file or directory
+Feb 24 03:28:00 ip-172-31-92-21 lighttpd: grep: /etc/password: No such file or directory
+Feb 24 03:28:38 ip-172-31-92-21 lighttpd: grep: world: No such file or directory
+Feb 24 03:28:38 ip-172-31-92-21 lighttpd: grep: world: No such file or directory
+Feb 24 03:28:43 ip-172-31-92-21 lighttpd: grep: /: Is a directory
+Feb 24 03:28:43 ip-172-31-92-21 lighttpd: grep: /: Is a directory
+Feb 24 03:29:13 ip-172-31-92-21 lighttpd: grep: world: No such file or directory
+Feb 24 03:29:23 ip-172-31-92-21 lighttpd: grep: world: No such file or directory
+Feb 24 03:29:23 ip-172-31-92-21 lighttpd: grep: asdc: No such file or directory
+Feb 24 03:29:23 ip-172-31-92-21 lighttpd: grep: a: No such file or directory
+Feb 24 03:29:23 ip-172-31-92-21 lighttpd: grep: asdc: No such file or directory
+Feb 24 03:29:48 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 121880ms.
+Feb 24 03:30:01 ip-172-31-92-21 systemd: Created slice User Slice of root.
+Feb 24 03:30:01 ip-172-31-92-21 systemd: Starting User Slice of root.
+Feb 24 03:30:01 ip-172-31-92-21 systemd: Started Session 240 of user root.
+Feb 24 03:30:01 ip-172-31-92-21 systemd: Starting Session 240 of user root.
+Feb 24 03:30:01 ip-172-31-92-21 systemd: Removed slice User Slice of root.
+Feb 24 03:30:01 ip-172-31-92-21 systemd: Stopping User Slice of root.
+Feb 24 03:30:40 ip-172-31-92-21 systemd-logind: Removed session 231.
+Feb 24 03:30:51 ip-172-31-92-21 lighttpd: grep: wordl: No such file or directory
+Feb 24 03:31:50 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 111940ms.
+Feb 24 03:33:42 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 114710ms.
+Feb 24 03:35:37 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 113570ms.
+Feb 24 03:37:21 ip-172-31-92-21 dhclient[2883]: DHCPREQUEST on eth0 to 172.31.80.1 port 67 (xid=0x5e7dde64)
+Feb 24 03:37:21 ip-172-31-92-21 dhclient[2883]: DHCPACK from 172.31.80.1 (xid=0x5e7dde64)
+Feb 24 03:37:21 ip-172-31-92-21 dhclient[2883]: bound to 172.31.92.21 -- renewal in 1415 seconds.
+Feb 24 03:37:21 ip-172-31-92-21 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/12:8b:bd:c6:0e:8c/local-ipv4s
+Feb 24 03:37:21 ip-172-31-92-21 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Feb 24 03:37:30 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 111040ms.
+Feb 24 03:39:21 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 122050ms.
+Feb 24 03:40:01 ip-172-31-92-21 systemd: Created slice User Slice of root.
+Feb 24 03:40:01 ip-172-31-92-21 systemd: Starting User Slice of root.
+Feb 24 03:40:01 ip-172-31-92-21 systemd: Started Session 241 of user root.
+Feb 24 03:40:01 ip-172-31-92-21 systemd: Starting Session 241 of user root.
+Feb 24 03:40:01 ip-172-31-92-21 systemd: Removed slice User Slice of root.
+Feb 24 03:40:01 ip-172-31-92-21 systemd: Stopping User Slice of root.
+Feb 24 03:41:24 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 128730ms.
+Feb 24 03:43:32 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 127170ms.
+Feb 24 03:44:06 ip-172-31-92-21 lighttpd: grep: %2Fetc%2Fpasswd: No such file or directory
+Feb 24 03:45:40 ip-172-31-92-21 dhclient[3014]: XMT: Solicit on eth0, interval 126530ms.
